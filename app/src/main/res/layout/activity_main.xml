@@ -49,4 +49,44 @@
         app:layout_constraintEnd_toEndOf="@+id/btn_big_text_style"
         app:layout_constraintStart_toStartOf="@+id/btn_big_text_style"
         app:layout_constraintTop_toBottomOf="@+id/btn_big_text_style" />
+
+    <Button
+        android:id="@+id/btn_custom_layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="custome layout1"
+        app:layout_constraintEnd_toEndOf="@+id/btn_inbox_style"
+        app:layout_constraintStart_toStartOf="@+id/btn_inbox_style"
+        app:layout_constraintTop_toBottomOf="@+id/btn_inbox_style" />
+
+    <Button
+        android:id="@+id/btn_notif1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add a large image"
+        app:layout_constraintEnd_toEndOf="@+id/btn_custom_layout1"
+        app:layout_constraintStart_toStartOf="@+id/btn_custom_layout1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_custom_layout1" />
+
+    <Button
+        android:id="@+id/btn_notif2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add a large block of text"
+        app:layout_constraintEnd_toEndOf="@+id/btn_notif1"
+        app:layout_constraintStart_toStartOf="@+id/btn_notif1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_notif1" />
+
+    <Button
+        android:id="@+id/btn_notif3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="notification with media controls"
+        app:layout_constraintEnd_toEndOf="@+id/btn_notif2"
+        app:layout_constraintStart_toStartOf="@+id/btn_notif2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_notif2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
