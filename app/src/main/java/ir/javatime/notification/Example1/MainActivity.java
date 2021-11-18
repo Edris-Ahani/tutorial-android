@@ -210,9 +210,8 @@ public class MainActivity extends AppCompatActivity {
                         .addAction(R.drawable.ic_pause, "Pause", pendingIntent2)  // #1
                         .addAction(R.drawable.ic_next, "Next", pendingIntent3)     // #2
                         // Apply the media style template
-                        /*.setStyle(new android.support.v4.media.app.Notification.MediaStyle()
-                                .setShowActionsInCompactView(1 )
-                                .setMediaSession(mediaSession.getSessionToken()))*/
+                        .setStyle(new androidx.media.app.NotificationCompat.MediaStyle()
+                                .setShowActionsInCompactView(1 ))
                         .setContentTitle("Wonderful music")
                         .setContentText("My Awesome Band")
                         .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.user))
